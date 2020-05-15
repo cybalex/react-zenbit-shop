@@ -5,9 +5,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
+//  <React.StrictMode> // a temporary fix for https://github.com/ant-design/ant-design/issues/22493
+  <React.Suspense fallback={''}>
     <App />
-  </React.StrictMode>,
+  </React.Suspense>,
+//  </React.StrictMode>,
   document.getElementById('root')
 );
 
