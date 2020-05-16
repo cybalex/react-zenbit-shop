@@ -1,20 +1,19 @@
 import React from 'react';
-import { Card } from 'antd';
+import { Card, Col } from 'antd'
+import { PlusOutlined, MinusOutlined } from '@ant-design/icons'
 
-const { Meta } = Card;
+export const CartItem = (props) => {
 
-export const CartItem = (props, ...extraProps) => {
+    let {thumbnail, name, price} = props.props
 
-    let {thumbnail, name, price} = props.props;
-console.log(thumbnail)
-console.log(thumbnail)
-    return <Card style={{ width: 240 }}>
+    return <Col span={6}><Card style={{ width: 240 }}>
         <div>
             <img alt="example" width="100%" src={thumbnail} />
         </div>
         <div>
             <h3>{name}</h3>
             <p>{price}$</p>
+            <PlusOutlined /><MinusOutlined />
         </div>
-    </Card>
+    </Card></Col>
 }

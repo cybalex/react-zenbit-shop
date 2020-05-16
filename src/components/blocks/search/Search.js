@@ -9,7 +9,7 @@ export const Search = () => {
     return <Form
                 name="search"
                 onFinish={onFinish}
-                style={{'padding-top': '5%'}}
+                style={{'paddingTop': '5%'}}
             >
                 <Row>
                     <Col span={15}>
