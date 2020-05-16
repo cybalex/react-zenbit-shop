@@ -1,7 +1,5 @@
 import React from 'react'
 
-function Register() {
+export const Register = () => {
     return <span>register page</span>
 }
-
-export default Register

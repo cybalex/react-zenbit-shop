@@ -1,7 +1,5 @@
 import React from 'react'
 
-function Catalogue() {
+export const Catalogue = () => {
     return <span>Catalogue of goods</span>
 }
-
-export default Catalogue

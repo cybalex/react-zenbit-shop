@@ -1,7 +1,7 @@
 import React from 'react'
 import { Form, Input, Button, Row, Col } from 'antd';
 
-function Search() {
+export const Search = () => {
     const onFinish = values => {
         console.log(values);
     };
@@ -28,5 +28,3 @@ function Search() {
                 </Row>
             </Form>
 }
-
-export default Search

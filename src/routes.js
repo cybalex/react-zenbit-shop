@@ -1,10 +1,7 @@
 import { Switch, Route } from 'react-router-dom'
 import React from 'react'
 
-import Index from "./pages/Index"
-import Cart from "./pages/Cart"
-import Profile from "./pages/Profile";
-import Catalogue from "./pages/Catalogue";
+import {Index, Cart, Profile, Catalogue} from './components/pages'
 
 export default () => {
     return (

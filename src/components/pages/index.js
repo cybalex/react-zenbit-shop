@@ -1,0 +1,6 @@
+export { Login } from './Login'
+export { Catalogue } from './Catalogue'
+export { Index } from './Index'
+export { Profile } from './Profile'
+export { Register } from './Register'
+export { Cart } from './Cart'

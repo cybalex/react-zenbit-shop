@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CartItem(props) {
+export const CartItem = (props) => {
     // todo: replace this awful html with something decent
     return <tr>
         <td>{props.index}</td>
@@ -8,5 +8,3 @@ function CartItem(props) {
         <td>{props.price}</td>
     </tr>
 }
-
-export default CartItem

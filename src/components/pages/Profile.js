@@ -1,7 +1,5 @@
 import React from 'react'
 
-function Profile() {
+export const Profile = () => {
     return <span>user profile page</span>
 }
-
-export default Profile

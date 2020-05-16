@@ -3,9 +3,9 @@ import './App.css'
 import Routes from './routes'
 import {BrowserRouter as Router} from 'react-router-dom'
 import { Layout } from 'antd';
-import Header from "./components/header/Header";
+import { Header } from "./components/blocks/header/Header";
 
-function App() {
+export const App = () => {
     return <Router>
             <Layout>
                 <Header />
@@ -13,5 +13,3 @@ function App() {
             </Layout>
         </Router>
 }
-
-export default App

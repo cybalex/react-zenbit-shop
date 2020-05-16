@@ -3,7 +3,7 @@ import { HomeOutlined, ShoppingCartOutlined, UserOutlined, LogoutOutlined, Unord
 import { Link } from 'react-router-dom'
 import { Menu, Badge } from 'antd';
 
-function MainMenu() {
+export const MainMenu = () => {
     const doLogout = function(event) {
         console.log('logout')
     }
@@ -33,5 +33,3 @@ function MainMenu() {
                 </Menu.Item>
             </Menu>
 }
-
-export default MainMenu
