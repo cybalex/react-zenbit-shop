@@ -25,23 +25,21 @@ function CartItems() {
         }
     ]
 
-    return <table>
-            <tr>
-                <td>#</td>
-                <td>Item name</td>
-                <td>price, $</td>
-            </tr>
+    // return <table>
+            {/*<tr>*/}
+            {/*    <td>#</td>*/}
+            {/*    <td>Item name</td>*/}
+            {/*    <td>price, $</td>*/}
+            {/*</tr>*/}
 
-            {dummyCartItems.map(
+            return dummyCartItems.map(
                 (item, index) => <CartItem
-                    key={index}
-                    index={index+1}
-                    name={item.name}
-                    price={item.price}
+                    index={index}
+                    props={item}
                 />
-            )}
-
-        </table>
+            )
+        //
+        // </table>
 }
 
 export default CartItems
