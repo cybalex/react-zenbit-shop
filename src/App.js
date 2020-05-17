@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+import './assets/styles/App.css'
 import Routes from './routes'
 import {BrowserRouter as Router} from 'react-router-dom'
 import { Layout } from 'antd';
