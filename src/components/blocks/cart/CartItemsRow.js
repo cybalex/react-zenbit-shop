@@ -2,14 +2,14 @@ import React from 'react';
 import { CartItem } from "./CartItem";
 import { Row } from 'antd'
 
-export const CartItemsRow = (rowItems) => {
+export const CartItemsRow = ({handleDelete, items}) => {
     const renderSplit = () => {
-        return rowItems.props.map(
+        return items.map(
             (item, index) => {
-                console.log(item)
                 return <CartItem
                     key={index}
-                    props={item}
+                    item={item}
+                    handleDelete={handleDelete}
                 />
             }
         )
