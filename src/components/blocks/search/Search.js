@@ -3,13 +3,12 @@ import { Form, Input, Button, Row, Col } from 'antd';
 
 export const Search = () => {
     const onFinish = values => {
-        console.log(values);
     };
 
     return <Form
                 name="search"
                 onFinish={onFinish}
-                style={{'paddingTop': '5%'}}
+                style={{'paddingTop': '15px'}}
             >
                 <Row>
                     <Col span={15}>
