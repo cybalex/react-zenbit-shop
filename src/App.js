@@ -1,13 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react"
+import Routes from "./routes"
+import {BrowserRouter as Router} from "react-router-dom"
+import { Layout } from "antd";
+import { Header } from "./components/blocks/header/Header";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
-  );
+export const App = () => {
+    return <Router>
+            <Layout>
+                <Header />
+                <Routes />
+            </Layout>
+        </Router>
 }
-
-export default App;
