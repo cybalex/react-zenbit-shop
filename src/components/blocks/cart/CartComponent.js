@@ -1,4 +1,3 @@
-// should I rename this file to index.js?
 import React, { useEffect, useState, Fragment } from 'react';
 import { CartItems } from "./CartItems";
 import { Row, Col } from "antd";

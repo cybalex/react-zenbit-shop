@@ -40,18 +40,16 @@ export const CartItems = ({onUpdateTotalPrice}) => {
         return resArray;
     }
 
-    const renderRowItems = (rowItems) => {
-        return rowItems.map(
-            (item, key) => {
-                return <CartItem
-                    key={item.id}
-                    item={item}
-                    handleDelete={handleDelete}
-                    handleCountChange={handleCountChange}
-                />
-            }
-        )
-    }
+    const renderRowItems = rowItems =>  rowItems.map(
+        (item) => {
+            return <CartItem
+                key={item.id}
+                item={item}
+                handleDelete={handleDelete}
+                handleCountChange={handleCountChange}
+            />
+        }
+    )
 
     const renderGrid = () => {
         let rowedData = arraySpliceMap(cartItems.map(item => {
