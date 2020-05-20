@@ -1,5 +1,5 @@
-import React from 'react'
-import { Form, Input, Button, Row, Col } from 'antd';
+import React from "react"
+import { Form, Input, Button, Row, Col } from "antd"
 
 export const Search = () => {
     const onFinish = values => {

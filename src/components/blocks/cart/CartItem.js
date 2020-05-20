@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import { Card, Col } from 'antd'
-import { PlusOutlined, MinusOutlined } from '@ant-design/icons'
+import React, { useState } from "react"
+import { Card, Col } from "antd"
+import { PlusOutlined, MinusOutlined } from "@ant-design/icons"
 
 export const CartItem = ({ item, handleDelete, handleCountChange}) => {
     const [cartItem, setCartItem] = useState(item);

@@ -1,6 +1,6 @@
-export { Login } from './Login'
-export { Catalogue } from './Catalogue'
-export { Home } from './Home'
-export { Profile } from './Profile'
-export { Register } from './Register'
-export { Cart } from './Cart'
+export { Login } from "./Login"
+export { Catalogue } from "./Catalogue"
+export { Home } from "./Home"
+export { Profile } from "./Profile"
+export { Register } from "./Register"
+export { Cart } from "./Cart"

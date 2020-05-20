@@ -1,7 +1,7 @@
-import React from 'react'
-import { Layout, Row, Col } from 'antd'
+import React from "react"
+import { Layout, Row, Col } from "antd"
 import { MainMenu } from "../menu/MainMenu"
-import { Search } from "../search/Search";
+import { Search } from "../search/Search"
 
 export const Header = () => {
     const { Header: AppHeader } = Layout;

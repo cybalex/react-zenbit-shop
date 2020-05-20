@@ -1,7 +1,9 @@
-import React from 'react';
-import { HomeOutlined, ShoppingCartOutlined, UserOutlined, LogoutOutlined, UnorderedListOutlined } from '@ant-design/icons'
-import { Link } from 'react-router-dom'
-import { Menu, Badge } from 'antd';
+import React from "react";
+import {
+    HomeOutlined, ShoppingCartOutlined, UserOutlined, LogoutOutlined, UnorderedListOutlined
+} from "@ant-design/icons"
+import { Link } from "react-router-dom"
+import { Menu, Badge } from "antd";
 
 export const MainMenu = () => {
     const doLogout = function(event) {
